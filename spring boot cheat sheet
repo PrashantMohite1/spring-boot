@@ -1,0 +1,10 @@
+
+
+basically controller madhe apan http routes takto pan tya route madhe apan actually user cha request gheto.
+
+meanst http route takaycha asel tar input manjech user chya request madhe apalyala kay kay pahijel te takav lagel ek tya request chi class banvun tasech request madhe value manage karnyasathi
+apan tyach request class madhe getter ani setter pan create karto.
+
+
+spring boot madhe return type kadhi kadhi custom class asto method cha then tya veli method nemke kay return karel ?
+  asha case madhe aplyala tya class object banvun to function madhun return karava lagto.
