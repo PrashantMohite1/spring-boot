@@ -1,8 +1,41 @@
 
 
+## How spring boot autoconfiguration works 
 
-How to Start with Spring Boot ?
+basically in spring boot we need to add starter dependencies in pom.xml then build tool (maven) will pull the specified dependencies and other imp which are required 
+
+so how the configuration actually works 
+go to maven Dependencies directory --> go inside spring-boot-autoconfigure jar you will see packages which having actually configuration which spring used in behind scene while autoconfiguring things
+
+
+
+## How to Start with Spring Boot ?
   1. create a maven project and add starter dependencies
   2. use spring initializr
   3. use IDE like STS
+  4. Spring boot command line Interface
 
+
+
+
+## how to open existing maven project
+go to eclipse --> import --> existing maven project --> select your directory
+
+
+## pom.xml 
+pom.xml madhe apan je kaahi dependencies add karto te spring boot class path madhe takto and je dependencies apan takel tyache configuration activate hotil then aplyala te implement karave lagtil otherwise spring boot tyache configuration enable or activate karel va tyanche implementation milnar nahi tyamule phatel application.
+
+## controller is used to create route in spring boot
+
+@Controller - annotation used for controller
+@ResponseBody - it used to get response when we add route or location in controller and to get response from it 
+
+@RequestMapping ("/test")  - give it above function then that will running when we use specified path here url/test
+
+
+
+install spring tool plugin in eclipse
+go to help --> eclipse marketplace --> search :- spring tools install latest one 
+
+after that we get spring initialize feture in eclipse 
+go to new --> other --> spring boot --> spring starter project 
