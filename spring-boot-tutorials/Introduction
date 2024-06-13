@@ -1,0 +1,8 @@
+
+
+
+How to Start with Spring Boot ?
+  1. create a maven project and add starter dependencies
+  2. use spring initializr
+  3. use IDE like STS
+
